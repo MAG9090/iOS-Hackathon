@@ -29,9 +29,43 @@
 		D07FB79D2CC33AEC0097E37C /* iOS Hackathon 2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Hackathon 2024UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D0E1BAC32CC488D50064A5D6 /* Exceptions for "iOS Hackathon 2024" folder in "iOS Hackathon 2024" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				EndPage.swift,
+				Model.swift,
+				MoodTrend.swift,
+				Question1.swift,
+				Question2.swift,
+				ViewModel.swift,
+			);
+			target = D07FB7822CC33AE90097E37C /* iOS Hackathon 2024 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		D0E1BAC42CC488D50064A5D6 /* Exceptions for "iOS Hackathon 2024" folder in "Copy Bundle Resources" phase from "iOS Hackathon 2024" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = D07FB7812CC33AE90097E37C /* Resources */;
+			membershipExceptions = (
+				EndPage.swift,
+				Model.swift,
+				MoodTrend.swift,
+				Question1.swift,
+				Question2.swift,
+				ViewModel.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D07FB7852CC33AE90097E37C /* iOS Hackathon 2024 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D0E1BAC32CC488D50064A5D6 /* Exceptions for "iOS Hackathon 2024" folder in "iOS Hackathon 2024" target */,
+				D0E1BAC42CC488D50064A5D6 /* Exceptions for "iOS Hackathon 2024" folder in "Copy Bundle Resources" phase from "iOS Hackathon 2024" target */,
+			);
 			path = "iOS Hackathon 2024";
 			sourceTree = "<group>";
 		};
