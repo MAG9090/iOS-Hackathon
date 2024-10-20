@@ -23,7 +23,9 @@ struct ContentView: View {
                     Button("See Mood Trend", systemImage: "face.smiling"){
                         showMoodTrend.toggle()
                     }
-        .padding()
+                    .padding()
+                }
+        }
     }
 }
 
